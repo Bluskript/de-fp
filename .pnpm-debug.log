@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "vite-template-solid@0.0.0",
+    "stage": "dev",
+    "script": "vite",
+    "pkgname": "vite-template-solid",
+    "err": {
+      "name": "pnpm",
+      "message": "vite-template-solid@0.0.0 dev: `vite`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: vite-template-solid@0.0.0 dev: `vite`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/home/blusk/.nvm/versions/node/v18.0.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:93511:22)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1090:16)\n    at ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  }
+}

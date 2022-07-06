@@ -1,0 +1,13 @@
+html,
+body,
+#root {
+  @apply w-full h-full bg-surface-600;
+}
+
+.btn {
+  @apply bg-primary-base p-1 text-contrast py-2 px-4 rounded-md cursor-pointer focus:outline outline-offset-2 outline-2 outline-primary-base;
+
+  &.btn-sm {
+    @apply text-xs py-2 px-3;
+  }
+}
